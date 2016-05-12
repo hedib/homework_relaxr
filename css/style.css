@@ -1,0 +1,189 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background-image: url("../images/header_bg.jpg");
+  height: 100%;
+  width: 100%;
+     
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      position: relative;
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+  font-weight: 800; 
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  font-weight: 600;
+
+}
+
+#header-button {
+  position:absolute;
+  top:48%;
+  width: 200px;
+  height: 50px;
+  background: #f9e42e;
+  border-radius: 5px;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  left:42%;
+}
+
+#header-text-button{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+   color:#033048;
+
+}
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight:600;
+  color: #033048;
+  padding-left: 15px;
+  padding-bottom: 20px;
+
+}
+
+#benefits {
+  padding:60px 480px 10 60px;
+  height:400px;
+  background: #f0efef;
+  color: #033048;
+}
+
+
+#benefits p, ul {
+  font-size: 13px;
+  font-weight: 300;
+  padding-left: 17px;
+  padding-right: 50%;
+  list-style-type: disc;
+  line-height: 2.4;
+  color:#606161;
+  line-height: 1.8;
+}
+
+
+ul {
+  padding:25px 350px 30px 80px;
+}
+
+
+#quote {
+  background-image: url("../images/testimonial_bg.jpg");
+  height: 50%;
+  max-height: 50%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#quote-text {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding: 10% 35% 0px 35%;
+  line-height: 1.4;
+}
+
+#amanda {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+  padding: 0px 35% 10px 35%;
+}
+
+#yellow-banner {
+  height: 80px;
+  width: 100%;
+  background: #f9e42e;
+}
+
+#signup-button {
+  height: 40px;
+  width: 220px;
+  background: #033048;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#signup-text {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  margin-top: 0px;
+  color:white;
+}
+
+footer {
+  height: 240px;
+  width: 100%;
+  background: #121212;
+}
+
+#relaxr-yellow {
+  font-size: 24px;
+  color: #f9e42e;
+  text-align: center;
+  font-weight: 800;
+}
+
+#social {
+  padding-left: 45%;
+  padding-right: 45%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  min-width: 100px;
+}
+
+#twitter{
+  padding-top: 6px;
+  width: 50px;
+  float: left;
+}
+
+#facebook{
+  padding: 10px;
+  float: right;
+}
+
+#copyright {
+  clear: both;
+  padding-top: 20px;
+  font-size: 9px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
